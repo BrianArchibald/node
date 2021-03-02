@@ -1,0 +1,25 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianArchibald/node.git"
+  },
+  "author": "Brian Archibald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianArchibald/node/issues"
+  },
+  "homepage": "https://github.com/BrianArchibald/node#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
