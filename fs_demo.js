@@ -14,3 +14,16 @@ fs.writeFile(path.join(__dirname, 'hello.txt'), 'hello world', function(err) {
 });
 
 // writeFile will overwrite a file, can use appendFile to add to a file
+// can use append file inside write file function
+
+// read to a file
+fs.readFile(path.join(__dirname, '/test', 'hello.txt'), 'utf8', function(err, data) {
+  if(err) throw err;
+  console.log(data);
+});
+
+// rename
+fs.readFile(path.join(__dirname, '/test', 'hello.txt'), path.join(__dirname, '/test', 'helloworld.txt'), function(err) {
+  if(err) throw err;
+  console.log('renaming');
+});
