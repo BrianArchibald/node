@@ -17,3 +17,9 @@ console.log(myUrl.pathname);
 
 // Serialized query
 console.log(myUrl.search);
+//
+//Parms object
+console.log(myUrl.searchParams);
+
+//add  parms to the object
+myUrl.searchParams.append('abx', '123')
