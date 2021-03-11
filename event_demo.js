@@ -9,4 +9,5 @@ const myEmitter = new MyEmitter();
 //Event listener
 myEmitter.on('event', () => console.log('FIRED!!'));
 
+// Init event
 myEmitter.emit('event');
